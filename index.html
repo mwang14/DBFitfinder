@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-calm">
+        <h1 class="title">Your Profile</h1>
+
+      </ion-header-bar>
+      <ion-content>
+      <div>
+        <h1 id="name"> Michael Wang</h1>
+      <img id="ProPic"  src="https://openclipart.org/image/800px/svg_to_png/212408/rodentia-icons_preferences-desktop-personal.png">
+
+      <div id="about">
+        <h1> About Me</h1>
+        <p>Hi! My name's Michael. I like soccer, basketball, and Rock Climbing.
+        </p>
+      </div>
+      <div class="list">
+  <label class="item item-input item-select">
+    <div class="input-label">
+      Your Sports
+    </div>
+    <select>
+      <option>Basketball</option>
+      <option selected>Soccer</option>
+      <option>Rock Climbing</option>
+    </select>
+  </label>
+</div>
+  <div id = "bottom" class="tabs tabs-icon-top">
+  <a class="tab-item" href="index.html">
+    <i class="icon ion-home"></i>
+    Home
+  </a>
+  <a class="tab-item" href="Messages.html">
+    <i class="icon ion-chatboxes"></i>
+    Messages
+  </a>
+  <a class="tab-item" href = "Connect.html">
+    <i class="icon ion-android-bicycle"></i>
+    Connect
+  </a>
+  <a class="tab-item" href="Settings.html">
+    <i class="icon ion-gear-a"></i>
+    Settings
+  </a>
+</div>
+
+      </ion-content>
+    </ion-pane>
+
+  </body>
+</html>

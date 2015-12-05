@@ -1,0 +1,19 @@
+{
+  "name": "fitfinder",
+  "version": "1.0.0",
+  "description": "database project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwang14/DBFitfinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwang14/DBFitfinder/issues"
+  },
+  "homepage": "https://github.com/mwang14/DBFitfinder#readme"
+}
